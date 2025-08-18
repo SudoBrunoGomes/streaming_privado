@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
 
 *{
+    background-color:azure;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    
 }
 
 .navegate_home{
     display: flex
-    
+
 }
 
 .box_navegate{
@@ -30,27 +31,22 @@
     cursor:pointer; 
 }
 
-.boxiframe{
-    width: 50vw;
-    height: 50vh;  
+.boxiframe{     
     background: rgb(66, 183, 230);  
-
-    margin: 10px 30px 10px 60px;
-    padding: 10px 30px 80px 60px;
-
+    padding: 1% 1% 1% 1%;
+    margin: 10%;
+    align-items: center;
 }
 .h2titulovideo{ 
-    font-family: "Press Start 2P", system-ui;
-    width: 96%;
-    height: 1%;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    font-family: "Mystery Quest", system-ui;
     text-align: center;
+    background-color:rgb(66, 183, 230) ;
 }
 .videoiframe{
-    width: 95%;
-    height: 100%;
-    
+   
+   height: 90vh;
+   width: 100%;
+   
 
 }
 
